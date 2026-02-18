@@ -1,0 +1,2616 @@
+[
+  {
+    "id": "W2906323621",
+    "title": "The Importance of Climate Risks for Institutional Investors",
+    "authors": [
+      "Philipp Krueger",
+      "Zacharias Sautner",
+      "Laura T. Starks"
+    ],
+    "year": 2019,
+    "journal": "Review of Financial Studies",
+    "doi_or_url": "https://doi.org/10.1093/rfs/hhz137",
+    "citation_count": 2393,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2975308768",
+    "title": "From Efficient Markets Theory to Behavioral Finance",
+    "authors": [
+      "Robert J. Shiller"
+    ],
+    "year": 2003,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/089533003321164967",
+    "citation_count": 1698,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2026559010",
+    "title": "Paying Not to Go to the Gym",
+    "authors": [
+      "Stefano Della Vigna",
+      "Ulrike Malmendier"
+    ],
+    "year": 2006,
+    "journal": "American Economic Review",
+    "doi_or_url": "https://doi.org/10.1257/aer.96.3.694",
+    "citation_count": 1125,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2064037357",
+    "title": "Time Discounting for Primary Rewards",
+    "authors": [
+      "Samuel M. McClure",
+      "Keith M. Marzilli Ericson",
+      "David Laibson",
+      "George Loewenstein",
+      "Jonathan D. Cohen"
+    ],
+    "year": 2007,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4246-06.2007",
+    "citation_count": 991,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2122848836",
+    "title": "Handbook of Health Economics",
+    "authors": [
+      "Frans Rutten",
+      "Han Bleichrodt",
+      "Werner Brouwer",
+      "Marc Koopmanschap",
+      "Erik Schut"
+    ],
+    "year": 2001,
+    "journal": "Journal of Health Economics",
+    "doi_or_url": "https://doi.org/10.1016/s0167-6296(01)00097-2",
+    "citation_count": 974,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1964961332",
+    "title": "Dissociating the Role of the Orbitofrontal Cortex and the Striatum in the Computation of Goal Values and Prediction Errors",
+    "authors": [
+      "Todd A. Hare",
+      "John P. O\u2019Doherty",
+      "Colin F. Camerer",
+      "Wolfram Schultz",
+      "Antonio Rangel"
+    ],
+    "year": 2008,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1309-08.2008",
+    "citation_count": 811,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1986505942",
+    "title": "DELAY DISCOUNTING: I'M A K, YOU'RE A K",
+    "authors": [
+      "Amy L. Odum"
+    ],
+    "year": 2011,
+    "journal": "Journal of the Experimental Analysis of Behavior",
+    "doi_or_url": "https://doi.org/10.1901/jeab.2011.96-423",
+    "citation_count": 645,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2055042587",
+    "title": "Preference for Immediate over Delayed Rewards Is Associated with Magnitude of Ventral Striatal Activity",
+    "authors": [
+      "Ahmad R. Hariri",
+      "Sarah M. Brown",
+      "Douglas E. Williamson",
+      "Janine D. Flory",
+      "Harriet de Wit",
+      "Stephen B. Manuck"
+    ],
+    "year": 2006,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3446-06.2006",
+    "citation_count": 565,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2057778345",
+    "title": "Effort-Based Cost\u2013Benefit Valuation and the Human Brain",
+    "authors": [
+      "Paula L. Croxson",
+      "Mark E. Walton",
+      "Jill X. O\u2019Reilly",
+      "Timothy E.J. Behrens",
+      "Matthew F. S. Rushworth"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4515-08.2009",
+    "citation_count": 564,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2146112275",
+    "title": "What Is the Subjective Cost of Cognitive Effort? Load, Trait, and Aging Effects Revealed by Economic Preference",
+    "authors": [
+      "Andrew Westbrook",
+      "Daria Kester",
+      "Todd S. Braver"
+    ],
+    "year": 2013,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0068210",
+    "citation_count": 543,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2041421155",
+    "title": "Separate Valuation Subsystems for Delay and Effort Decision Costs",
+    "authors": [
+      "Charlotte Pr\u00e9vost",
+      "Mathias Pessiglione",
+      "\u00c9lise M\u00e9t\u00e9reau",
+      "Marie-Laure Cl\u00e9ry-Melin",
+      "Jean\u2010Claude Dreher"
+    ],
+    "year": 2010,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2752-10.2010",
+    "citation_count": 504,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2263179472",
+    "title": "Poverty and Economic Decision-Making: Evidence from Changes in Financial Resources at Payday",
+    "authors": [
+      "Leandro Carvalho",
+      "Stephan Meier",
+      "Stephanie W. Wang"
+    ],
+    "year": 2016,
+    "journal": "American Economic Review",
+    "doi_or_url": "https://doi.org/10.1257/aer.20140481",
+    "citation_count": 490,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2046479615",
+    "title": "Influence of Reward Delays on Responses of Dopamine Neurons",
+    "authors": [
+      "Shunsuke Kobayashi",
+      "Wolfram Schultz"
+    ],
+    "year": 2008,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1600-08.2008",
+    "citation_count": 449,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2135545577",
+    "title": "DELAY DISCOUNTING BY PATHOLOGICAL GAMBLERS",
+    "authors": [
+      "Mark R. Dixon",
+      "Janice Marley",
+      "Eric A. Jacobs"
+    ],
+    "year": 2003,
+    "journal": "Journal of Applied Behavior Analysis",
+    "doi_or_url": "https://doi.org/10.1901/jaba.2003.36-449",
+    "citation_count": 438,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2129528797",
+    "title": "When a Day Means More than a Year: Effects of Temporal Framing on Judgments of Health Risk",
+    "authors": [
+      "Sucharita Chandran",
+      "Geeta Menon"
+    ],
+    "year": 2004,
+    "journal": "Journal of Consumer Research",
+    "doi_or_url": "https://doi.org/10.1086/422116",
+    "citation_count": 429,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2590825925",
+    "title": "Neurocomputational mechanisms underlying subjective valuation of effort costs",
+    "authors": [
+      "Trevor T.\u2010J. Chong",
+      "Matthew A J Apps",
+      "Kathrin Giehl",
+      "Annie Sillence",
+      "Laura L. Grima",
+      "Masud Husain"
+    ],
+    "year": 2017,
+    "journal": "PLoS Biology",
+    "doi_or_url": "https://doi.org/10.1371/journal.pbio.1002598",
+    "citation_count": 428,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1971859310",
+    "title": "A Neural Mechanism Mediating the Impact of Episodic Prospection on Farsighted Decisions",
+    "authors": [
+      "Roland G. Benoit",
+      "Sam J. Gilbert",
+      "Paul W. Burgess"
+    ],
+    "year": 2011,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.6559-10.2011",
+    "citation_count": 419,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1975745304",
+    "title": "Overlapping and Distinct Neural Systems Code for Subjective Value during Intertemporal and Risky Decision Making",
+    "authors": [
+      "Jan Peters",
+      "Christian B\u00fcchel"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3489-09.2009",
+    "citation_count": 404,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2263529863",
+    "title": "Rethinking fast and slow based on a critique of reaction-time reverse inference",
+    "authors": [
+      "Ian Krajbich",
+      "Bj\u00f6rn Bartling",
+      "Todd A. Hare",
+      "Ernst Fehr"
+    ],
+    "year": 2015,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/ncomms8455",
+    "citation_count": 368,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1986338698",
+    "title": "Comparing Apples and Oranges: Using Reward-Specific and Reward-General Subjective Value Representation in the Brain",
+    "authors": [
+      "Dino J. Levy",
+      "Paul W. Glimcher"
+    ],
+    "year": 2011,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2218-11.2011",
+    "citation_count": 357,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1983640865",
+    "title": "The Architecture of Reward Value Coding in the Human Orbitofrontal Cortex",
+    "authors": [
+      "Guillaume Sescousse",
+      "J\u00e9r\u00f4me Redout\u00e9",
+      "Jean\u2010Claude Dreher"
+    ],
+    "year": 2010,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3501-10.2010",
+    "citation_count": 351,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2013260694",
+    "title": "Differential effects of amount on temporal and probability discounting of gains and losses",
+    "authors": [
+      "Sara J. Estle",
+      "Leonard Green",
+      "Joel Myerson",
+      "Daniel D. Holt"
+    ],
+    "year": 2006,
+    "journal": "Memory & Cognition",
+    "doi_or_url": "https://doi.org/10.3758/bf03193437",
+    "citation_count": 349,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2021954938",
+    "title": "Melioration: A Theory of Distributed Choice",
+    "authors": [
+      "R. J. Herrnstein",
+      "Dra\u017een Prelec"
+    ],
+    "year": 1991,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/jep.5.3.137",
+    "citation_count": 325,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2097552217",
+    "title": "A Neural Computational Model of Incentive Salience",
+    "authors": [
+      "Jun Zhang",
+      "Kent Berridge",
+      "Amy J. Tindell",
+      "Kyle S. Smith",
+      "J. Wayne Aldridge"
+    ],
+    "year": 2009,
+    "journal": "PLoS Computational Biology",
+    "doi_or_url": "https://doi.org/10.1371/journal.pcbi.1000437",
+    "citation_count": 304,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1996927734",
+    "title": "The Role of Self\u2010Regulation, Future Orientation, and Financial Knowledge in Long\u2010Term Financial Decisions",
+    "authors": [
+      "Elizabeth Howlett",
+      "Jeremy Kees",
+      "Elyria Kemp"
+    ],
+    "year": 2008,
+    "journal": "Journal of Consumer Affairs",
+    "doi_or_url": "https://doi.org/10.1111/j.1745-6606.2008.00106.x",
+    "citation_count": 300,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4298055126",
+    "title": "The Economics and Psychology of Personality Traits",
+    "authors": [
+      "Lex Borghans",
+      "Angela Duckworth",
+      "James J. Heckman",
+      "Bas ter Weel"
+    ],
+    "year": 2008,
+    "journal": "SSRN Electronic Journal",
+    "doi_or_url": "https://doi.org/10.2139/ssrn.1135909",
+    "citation_count": 289,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2071392547",
+    "title": "Online evaluation of novel choices by simultaneous representation of multiple memories",
+    "authors": [
+      "Helen C. Barron",
+      "Raymond J. Dolan",
+      "Timothy E.J. Behrens"
+    ],
+    "year": 2013,
+    "journal": "Nature Neuroscience",
+    "doi_or_url": "https://doi.org/10.1038/nn.3515",
+    "citation_count": 288,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2560821290",
+    "title": "The Economics and Psychology of Personality Traits",
+    "authors": [
+      "Lex Borghans",
+      "Angela Duckworth",
+      "James J. Heckman",
+      "Bas ter Weel"
+    ],
+    "year": 2008,
+    "journal": "The Journal of Human Resources",
+    "doi_or_url": "https://doi.org/10.3368/jhr.43.4.972",
+    "citation_count": 287,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2070655832",
+    "title": "The Role of Human Orbitofrontal Cortex in Value Comparison for Incommensurable Objects",
+    "authors": [
+      "Thomas H. B. FitzGerald",
+      "Ben Seymour",
+      "Raymond J. Dolan"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.0717-09.2009",
+    "citation_count": 286,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1995110821",
+    "title": "Range-Adapting Representation of Economic Value in the Orbitofrontal Cortex",
+    "authors": [
+      "Camillo Padoa\u2010Schioppa"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3751-09.2009",
+    "citation_count": 285,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2088853696",
+    "title": "Congruence of BOLD Response across Intertemporal Choice Conditions: Fictive and Real Money Gains and Losses",
+    "authors": [
+      "Warren K. Bickel",
+      "Jeffery A. Pitcock",
+      "Richard Yi",
+      "E J Angtuaco"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.5319-08.2009",
+    "citation_count": 282,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1979297327",
+    "title": "Neuroeconomic Foundations of Economic Choice\u2014Recent Advances",
+    "authors": [
+      "Ernst Fehr",
+      "Antonio Rangel"
+    ],
+    "year": 2011,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/jep.25.4.3",
+    "citation_count": 279,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2046808635",
+    "title": "Dopamine, Time, and Impulsivity in Humans",
+    "authors": [
+      "A. Pine",
+      "T. Shiner",
+      "B. Seymour",
+      "R. J. Dolan"
+    ],
+    "year": 2010,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.6028-09.2010",
+    "citation_count": 272,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2138201461",
+    "title": "Bikinis Instigate Generalized Impatience in Intertemporal Choice",
+    "authors": [
+      "Bram Van den Bergh",
+      "Siegfried Dewitte",
+      "Luk Warlop"
+    ],
+    "year": 2008,
+    "journal": "Journal of Consumer Research",
+    "doi_or_url": "https://doi.org/10.1086/525505",
+    "citation_count": 264,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2167028724",
+    "title": "On the Role of the Ventromedial Prefrontal Cortex in Self-Processing: The Valuation Hypothesis",
+    "authors": [
+      "Arnaud D\u2019Argembeau"
+    ],
+    "year": 2013,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2013.00372",
+    "citation_count": 263,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2094761601",
+    "title": "Low-Serotonin Levels Increase Delayed Reward Discounting in Humans",
+    "authors": [
+      "Nicolas Schweighofer",
+      "Mathieu Bertin",
+      "Kazuhiro Shishida",
+      "Yasumasa Okamoto",
+      "Saori Tanaka",
+      "Shigeto Yamawaki",
+      "Kenji Doya"
+    ],
+    "year": 2008,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4982-07.2008",
+    "citation_count": 262,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2077018932",
+    "title": "Learning the opportunity cost of time in a patch-foraging task",
+    "authors": [
+      "Sara M. Constantino",
+      "Nathaniel D. Daw"
+    ],
+    "year": 2015,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/s13415-015-0350-y",
+    "citation_count": 252,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2949689970",
+    "title": "Neural Signatures of Value Comparison in Human Cingulate Cortex during Decisions Requiring an Effort-Reward Trade-off",
+    "authors": [
+      "Miriam C. Klein-Fl\u00fcgge",
+      "Steven W. Kennerley",
+      "Karl Friston",
+      "Sven Bestmann"
+    ],
+    "year": 2016,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.0292-16.2016",
+    "citation_count": 251,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1973481178",
+    "title": "Impulsivity and cognitive distortions in pathological gamblers attending the UK National Problem Gambling Clinic: a preliminary report",
+    "authors": [
+      "Rosanna Michalczuk",
+      "Henrietta Bowden\u2010Jones",
+      "Antonio Verdejo\u2010Garc\u00eda",
+      "Luke Clark"
+    ],
+    "year": 2011,
+    "journal": "Psychological Medicine",
+    "doi_or_url": "https://doi.org/10.1017/s003329171100095x",
+    "citation_count": 243,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2054040367",
+    "title": "Prefrontal Coding of Temporally Discounted Values during Intertemporal Choice",
+    "authors": [
+      "Soyoun Kim",
+      "Jaewon Hwang",
+      "Daeyeol Lee"
+    ],
+    "year": 2008,
+    "journal": "Neuron",
+    "doi_or_url": "https://doi.org/10.1016/j.neuron.2008.05.010",
+    "citation_count": 242,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2166189176",
+    "title": "Myopic Discounting of Future Rewards after Medial Orbitofrontal Damage in Humans",
+    "authors": [
+      "Manuela Sellitto",
+      "Elisa Ciaramelli",
+      "Giuseppe di Pellegrino"
+    ],
+    "year": 2010,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2516-10.2010",
+    "citation_count": 240,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3122019861",
+    "title": "Analysts\u2019 Forecasts and Asset Pricing: A Survey",
+    "authors": [
+      "S.P. Kothari",
+      "Eric C. So",
+      "Rodrigo Verdi"
+    ],
+    "year": 2016,
+    "journal": "Annual Review of Financial Economics",
+    "doi_or_url": "https://doi.org/10.1146/annurev-financial-121415-032930",
+    "citation_count": 239,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1985405925",
+    "title": "Why Do Universities Have Endowments?",
+    "authors": [
+      "Henry Hansmann"
+    ],
+    "year": 1990,
+    "journal": "The Journal of Legal Studies",
+    "doi_or_url": "https://doi.org/10.1086/467841",
+    "citation_count": 234,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2028636953",
+    "title": "Altered Neural Reward Representations in Pathological Gamblers Revealed by Delay and Probability Discounting",
+    "authors": [
+      "Stephan F. Miedl"
+    ],
+    "year": 2012,
+    "journal": "Archives of General Psychiatry",
+    "doi_or_url": "https://doi.org/10.1001/archgenpsychiatry.2011.1552",
+    "citation_count": 232,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1985867909",
+    "title": "Cognitive Regulation during Decision Making Shifts Behavioral Control between Ventromedial and Dorsolateral Prefrontal Value Systems",
+    "authors": [
+      "Cendri A. Hutcherson",
+      "Hilke Pla\u00dfmann",
+      "James J. Gross",
+      "Antonio Rangel"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.6387-11.2012",
+    "citation_count": 230,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1970282176",
+    "title": "The Relationship between Impulsive Choice and Impulsive Action: A Cross-Species Translational Study",
+    "authors": [
+      "N. Broos",
+      "Lianne Schmaal",
+      "Joost Wiskerke",
+      "Lennard Kostelijk",
+      "Thomas Chuen Lam",
+      "Nicky Stoop",
+      "Lonneke Weierink",
+      "J. J. van Ham",
+      "Eco J. C. de Geus",
+      "Anton N. M. Schoffelmeer",
+      "Wim van den Brink",
+      "Dick J. Veltman"
+    ],
+    "year": 2012,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0036781",
+    "citation_count": 229,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2060098596",
+    "title": "Kinked Adjustment Costs and Aggregate Dynamics",
+    "authors": [
+      "Giuseppe Bertola",
+      "Ricardo J. Caballero"
+    ],
+    "year": 1990,
+    "journal": "NBER Macroeconomics Annual",
+    "doi_or_url": "https://doi.org/10.1086/654143",
+    "citation_count": 229,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2078652550",
+    "title": "Temporal Discounting of Reward and the Cost of Time in Motor Control",
+    "authors": [
+      "Reza Shadmehr",
+      "Jean\u2010Jacques Orban de Xivry",
+      "Minnan Xu-Wilson",
+      "Ting-Yu Shih"
+    ],
+    "year": 2010,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1343-10.2010",
+    "citation_count": 223,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2002597000",
+    "title": "Choice from Non-Choice: Predicting Consumer Preferences from Blood Oxygenation Level-Dependent Signals Obtained during Passive Viewing",
+    "authors": [
+      "Ifat Levy",
+      "Stephanie C. Lazzaro",
+      "Robb B. Rutledge",
+      "Paul W. Glimcher"
+    ],
+    "year": 2011,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3214-10.2011",
+    "citation_count": 212,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2339117071",
+    "title": "Construal Level Theory in Organizational Research",
+    "authors": [
+      "Batia M. Wiesenfeld",
+      "Jean-Nicolas Reyt",
+      "Joel Brockner",
+      "Yaacov Trope"
+    ],
+    "year": 2017,
+    "journal": "Annual Review of Organizational Psychology and Organizational Behavior",
+    "doi_or_url": "https://doi.org/10.1146/annurev-orgpsych-032516-113115",
+    "citation_count": 210,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2100327536",
+    "title": "Activity in dlPFC and its effective connectivity to vmPFC are associated with temporal discounting",
+    "authors": [
+      "Todd A. Hare",
+      "Shabnam Hakimi",
+      "Antonio Rangel"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnins.2014.00050",
+    "citation_count": 209,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2509303870",
+    "title": "Automating Scoring of Delay Discounting for the 21- and 27-Item Monetary Choice Questionnaires",
+    "authors": [
+      "Brent A. Kaplan",
+      "Michael Amlung",
+      "Derek D. Reed",
+      "David P. Jarmolowicz",
+      "Todd L. McKerchar",
+      "Shea M. Lemley"
+    ],
+    "year": 2016,
+    "journal": "The Behavior Analyst",
+    "doi_or_url": "https://doi.org/10.1007/s40614-016-0070-9",
+    "citation_count": 209,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W565410911",
+    "title": "Measuring time preferences: A comparison of experimental methods",
+    "authors": [
+      "James Andreoni",
+      "Michael Kuhn",
+      "Charles Sprenger"
+    ],
+    "year": 2015,
+    "journal": "Journal of Economic Behavior & Organization",
+    "doi_or_url": "https://doi.org/10.1016/j.jebo.2015.05.018",
+    "citation_count": 206,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2035946861",
+    "title": "Dissociable Effects of Lesions to Orbitofrontal Cortex Subregions on Impulsive Choice in the Rat",
+    "authors": [
+      "Adam C. Mar",
+      "Alice L. J. Walker",
+      "David Theobald",
+      "Dawn M. Eagle",
+      "Trevor W. Robbins"
+    ],
+    "year": 2011,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.6620-10.2011",
+    "citation_count": 205,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2053290883",
+    "title": "Encoding of Marginal Utility across Time in the Human Brain",
+    "authors": [
+      "Alex Pine",
+      "Ben Seymour",
+      "Jonathan P. Roiser",
+      "Peter Bossaerts",
+      "Karl Friston",
+      "Valerie H. Curran",
+      "Raymond J. Dolan"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1126-09.2009",
+    "citation_count": 203,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2068764792",
+    "title": "Feedback Timing Modulates Brain Systems for Learning in Humans",
+    "authors": [
+      "Karin Foerde",
+      "Daphna Shohamy"
+    ],
+    "year": 2011,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2701-11.2011",
+    "citation_count": 202,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2115719663",
+    "title": "CONTEXTUAL CONTROL OF DELAY DISCOUNTING BY PATHOLOGICAL GAMBLERS",
+    "authors": [
+      "Mark R. Dixon",
+      "Eric A. Jacobs",
+      "Scott Sanders"
+    ],
+    "year": 2006,
+    "journal": "Journal of Applied Behavior Analysis",
+    "doi_or_url": "https://doi.org/10.1901/jaba.2006.173-05",
+    "citation_count": 202,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2144248557",
+    "title": "Resting-State Functional Connectivity Predicts Impulsivity in Economic Decision-Making",
+    "authors": [
+      "Nan Li",
+      "Ning Ma",
+      "Ying Liu",
+      "Xiaosong He",
+      "Delin Sun",
+      "Xianming Fu",
+      "Xiaochu Zhang",
+      "Shihui Han",
+      "Daren Zhang"
+    ],
+    "year": 2013,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1342-12.2013",
+    "citation_count": 200,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2346792670",
+    "title": "The Good, the Bad, and the Ugly: A Unified Approach to Behavioral Welfare Economics",
+    "authors": [
+      "B. Douglas Bernheim"
+    ],
+    "year": 2016,
+    "journal": "Journal of Benefit-Cost Analysis",
+    "doi_or_url": "https://doi.org/10.1017/bca.2016.5",
+    "citation_count": 200,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2104261508",
+    "title": "Deciding When to Decide: Time-Variant Sequential Sampling Models Explain the Emergence of Value-Based Decisions in the Human Brain",
+    "authors": [
+      "Sebastian Gluth",
+      "J\u00f6rg Rieskamp",
+      "Christian B\u00fcchel"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.0727-12.2012",
+    "citation_count": 198,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1998436798",
+    "title": "Ventral Striatal Neurons Encode the Value of the Chosen Action in Rats Deciding between Differently Delayed or Sized Rewards",
+    "authors": [
+      "Matthew R. Roesch",
+      "Teghpal Singh",
+      "Paul Brown",
+      "Sylvina E. Mullins",
+      "Geoffrey Schoenbaum"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2572-09.2009",
+    "citation_count": 196,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2112854234",
+    "title": "DELAY, PROBABILITY, AND SOCIAL DISCOUNTING IN A PUBLIC GOODS GAME",
+    "authors": [
+      "Bryan A. Jones",
+      "Howard Rachlin"
+    ],
+    "year": 2009,
+    "journal": "Journal of the Experimental Analysis of Behavior",
+    "doi_or_url": "https://doi.org/10.1901/jeab.2009.91-61",
+    "citation_count": 189,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2027513449",
+    "title": "Connectivity Strength of Dissociable Striatal Tracts Predict Individual Differences in Temporal Discounting",
+    "authors": [
+      "Wouter van den Bos",
+      "Christian A. Rodriguez",
+      "Julie B. Schweitzer",
+      "S. M. McClure"
+    ],
+    "year": 2014,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4105-13.2014",
+    "citation_count": 188,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3122038893",
+    "title": "The Preference Survey Module: A Validated Instrument for Measuring Risk, Time, and Social Preferences",
+    "authors": [
+      "Armin Falk",
+      "Anke Becker",
+      "Thomas Dohmen",
+      "David Huffman",
+      "Uwe Sunde"
+    ],
+    "year": 2016,
+    "journal": "SSRN Electronic Journal",
+    "doi_or_url": "https://doi.org/10.2139/ssrn.2725035",
+    "citation_count": 187,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2090751147",
+    "title": "Separating Value from Choice: Delay Discounting Activity in the Lateral Intraparietal Area",
+    "authors": [
+      "Kenway Louie",
+      "Paul W. Glimcher"
+    ],
+    "year": 2010,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.5742-09.2010",
+    "citation_count": 187,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2037174944",
+    "title": "Neural Correlates of Forward Planning in a Spatial Decision Task in Humans",
+    "authors": [
+      "Dylan Alexander Simon",
+      "Nathaniel D. Daw"
+    ],
+    "year": 2011,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4647-10.2011",
+    "citation_count": 187,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2472231909",
+    "title": "Intrinsic Valuation of Information in Decision Making under Uncertainty",
+    "authors": [
+      "Daniel Bennett",
+      "Stefan Bode",
+      "Maja Brydevall",
+      "Hayley A. Warren",
+      "Carsten Murawski"
+    ],
+    "year": 2016,
+    "journal": "PLoS Computational Biology",
+    "doi_or_url": "https://doi.org/10.1371/journal.pcbi.1005020",
+    "citation_count": 185,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1986178633",
+    "title": "Learning To Minimize Efforts versus Maximizing Rewards: Computational Principles and Neural Correlates",
+    "authors": [
+      "Vasilisa Skvortsova",
+      "Stefano Palminteri",
+      "Mathias Pessiglione"
+    ],
+    "year": 2014,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1350-14.2014",
+    "citation_count": 184,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2070685206",
+    "title": "Building Bridges between Perceptual and Economic Decision-Making: Neural and Computational Mechanisms",
+    "authors": [
+      "Christopher Summerfield",
+      "Konstantinos Tsetsos"
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnins.2012.00070",
+    "citation_count": 179,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2158301425",
+    "title": "Stranded assets and the fossil fuel divestment campaign: What does divestment mean for the valuation of fossil fuel assets?",
+    "authors": [
+      "Atif Ansar",
+      "Ben Caldecott",
+      "James Tilbury"
+    ],
+    "year": 2013,
+    "journal": "Unknown",
+    "doi_or_url": "https://openalex.org/W2158301425",
+    "citation_count": 178,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2622430428",
+    "title": "Sorting through Search and Matching Models in Economics",
+    "authors": [
+      "H\u00e9ctor Chade",
+      "Jan Eeckhout",
+      "Lones Smith"
+    ],
+    "year": 2017,
+    "journal": "Journal of Economic Literature",
+    "doi_or_url": "https://doi.org/10.1257/jel.20150777",
+    "citation_count": 177,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2120390728",
+    "title": "Temporal discounting in major depressive disorder",
+    "authors": [
+      "E. Pulcu",
+      "P. D. Trotter",
+      "E. J. Thomas",
+      "M. McFarquhar",
+      "G. Juhasz",
+      "B. J. Sahakian",
+      "J. F. W. Deakin",
+      "R. Zahn",
+      "I. M. Anderson",
+      "R. Elliott"
+    ],
+    "year": 2013,
+    "journal": "Psychological Medicine",
+    "doi_or_url": "https://doi.org/10.1017/s0033291713002584",
+    "citation_count": 177,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2059057473",
+    "title": "DAT1 and COMT Effects on Delay Discounting and Trait Impulsivity in Male Adolescents with Attention Deficit/Hyperactivity Disorder and Healthy Controls",
+    "authors": [
+      "Yannis Paloyelis",
+      "Philip Asherson",
+      "Mitul A. Mehta",
+      "Stephen V. Faraone",
+      "Jonna Kuntsi"
+    ],
+    "year": 2010,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/npp.2010.124",
+    "citation_count": 175,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3122610688",
+    "title": "Housing Is the Business Cycle",
+    "authors": [
+      "Edward E. Leamer"
+    ],
+    "year": 2012,
+    "journal": "Elsevier eBooks",
+    "doi_or_url": "https://doi.org/10.1016/b978-0-12-397874-5.00047-6",
+    "citation_count": 173,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2134148065",
+    "title": "What is for me is not for you: brain correlates of intertemporal choice for self and other",
+    "authors": [
+      "Konstanze Albrecht",
+      "Kirsten G. Volz",
+      "Matthias Sutter",
+      "David Laibson",
+      "D. Yves von Cramon"
+    ],
+    "year": 2010,
+    "journal": "Social Cognitive and Affective Neuroscience",
+    "doi_or_url": "https://doi.org/10.1093/scan/nsq046",
+    "citation_count": 170,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2164383455",
+    "title": "Separate Prefrontal-Subcortical Circuits Mediate Different Components of Risk-Based Decision Making",
+    "authors": [
+      "Jennifer R. St. Onge",
+      "Colin M. Stopper",
+      "Daniel S. Zahm",
+      "Stan Floresco"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.5625-11.2012",
+    "citation_count": 168,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2141335893",
+    "title": "Increased Capacity to Delay Reward in Anorexia Nervosa",
+    "authors": [
+      "Joanna Steinglass",
+      "Bernd Figner",
+      "Staci A. Berkowitz",
+      "H. Blair Simpson",
+      "Elke U. Weber",
+      "B. Timothy Walsh"
+    ],
+    "year": 2012,
+    "journal": "Journal of the International Neuropsychological Society",
+    "doi_or_url": "https://doi.org/10.1017/s1355617712000446",
+    "citation_count": 165,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2405510455",
+    "title": "Top-Down Dysregulation\u2014From ADHD to Emotional Instability",
+    "authors": [
+      "Predrag Petrovi\u0107",
+      "F. Xavier Castellanos"
+    ],
+    "year": 2016,
+    "journal": "Frontiers in Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnbeh.2016.00070",
+    "citation_count": 165,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2787520207",
+    "title": "Reconciling persistent and dynamic hypotheses of working memory coding in prefrontal cortex",
+    "authors": [
+      "Sean E. Cavanagh",
+      "John P. Towers",
+      "Joni D. Wallis",
+      "Laurence T. Hunt",
+      "Steven W. Kennerley"
+    ],
+    "year": 2018,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/s41467-018-05873-3",
+    "citation_count": 163,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2044231855",
+    "title": "Altered Frontal Cortical Volume and Decision Making in Adolescent Cannabis Users",
+    "authors": [
+      "John C. Churchwell",
+      "Melissa Lopez-Larson",
+      "Deborah Yurgelun\u2010Todd"
+    ],
+    "year": 2010,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2010.00225",
+    "citation_count": 158,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2110534460",
+    "title": "On Weight and Waiting: Delay Discounting in Anorexia Nervosa Pretreatment and Posttreatment",
+    "authors": [
+      "Johannes H. Decker",
+      "Bernd Figner",
+      "Joanna Steinglass"
+    ],
+    "year": 2014,
+    "journal": "Biological Psychiatry",
+    "doi_or_url": "https://doi.org/10.1016/j.biopsych.2014.12.016",
+    "citation_count": 158,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2298367631",
+    "title": "Mobile technology habits:\u00a0patterns of association among device usage, intertemporal preference, impulse control, and reward sensitivity",
+    "authors": [
+      "Henry H. Wilmer",
+      "Jason Chein"
+    ],
+    "year": 2016,
+    "journal": "Psychonomic Bulletin & Review",
+    "doi_or_url": "https://doi.org/10.3758/s13423-016-1011-z",
+    "citation_count": 157,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2412196334",
+    "title": "Neural mechanisms underlying the impact of daylong cognitive work on economic decisions",
+    "authors": [
+      "Bastien Blain",
+      "Guillaume Hollard",
+      "Mathias Pessiglione"
+    ],
+    "year": 2016,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "doi_or_url": "https://doi.org/10.1073/pnas.1520527113",
+    "citation_count": 156,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2317244558",
+    "title": "Individual Differences in Cognitive Control Circuit Anatomy Link Sensation Seeking, Impulsivity, and Substance Use",
+    "authors": [
+      "Avram J. Holmes",
+      "Marisa O. Hollinshead",
+      "Joshua L. Roffman",
+      "Jordan W. Smoller",
+      "Randy L. Buckner"
+    ],
+    "year": 2016,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3206-15.2016",
+    "citation_count": 156,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3152245102",
+    "title": "Risking Your Life without a Second Thought: Intuitive Decision-Making and Extreme Altruism",
+    "authors": [
+      "David G. Rand",
+      "Ziv Epstein"
+    ],
+    "year": 2014,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0109687",
+    "citation_count": 154,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2051648641",
+    "title": "Reduced Sensitivity to Immediate Reward during Decision-Making in Older than Younger Adults",
+    "authors": [
+      "Ben Eppinger",
+      "Leigh E. Nystrom",
+      "Jonathan D. Cohen"
+    ],
+    "year": 2012,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0036953",
+    "citation_count": 154,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3125788880",
+    "title": "Survey of time preference, delay discounting models",
+    "authors": [
+      "John R. Doyle"
+    ],
+    "year": 2013,
+    "journal": "Judgment and Decision Making",
+    "doi_or_url": "https://doi.org/10.1017/s1930297500005052",
+    "citation_count": 153,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2089855922",
+    "title": "Impulsivity and Self-Control during Intertemporal Decision Making Linked to the Neural Dynamics of Reward Value Representation",
+    "authors": [
+      "Koji Jimura",
+      "Maria S. Chushak",
+      "Todd S. Braver"
+    ],
+    "year": 2013,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.0919-12.2013",
+    "citation_count": 152,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2152585994",
+    "title": "Future planning: default network activity couples with frontoparietal control network and reward-processing regions during process and outcome simulations",
+    "authors": [
+      "Kathy D. Gerlach",
+      "R. Nathan Spreng",
+      "Kevin P. Madore",
+      "Daniel L. Schacter"
+    ],
+    "year": 2014,
+    "journal": "Social Cognitive and Affective Neuroscience",
+    "doi_or_url": "https://doi.org/10.1093/scan/nsu001",
+    "citation_count": 151,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2103734479",
+    "title": "Value and Prediction Error in Medial Frontal Cortex: Integrating the Single-Unit and Systems Levels of Analysis",
+    "authors": [
+      "Massimo Silvetti",
+      "Ruth Seurinck",
+      "Tom Verguts"
+    ],
+    "year": 2011,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2011.00075",
+    "citation_count": 150,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2088033726",
+    "title": "Addictions and Personality Traits: Impulsivity and Related Constructs",
+    "authors": [
+      "Marci R. Mitchell",
+      "Marc N. Potenza"
+    ],
+    "year": 2014,
+    "journal": "Current Behavioral Neuroscience Reports",
+    "doi_or_url": "https://doi.org/10.1007/s40473-013-0001-y",
+    "citation_count": 148,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2116327398",
+    "title": "THE WELFARE STATE AND ECONOMIC PERFORMANCE",
+    "authors": [
+      "A. B. Atkinson"
+    ],
+    "year": 1995,
+    "journal": "National Tax Journal",
+    "doi_or_url": "https://doi.org/10.1086/ntj41789136",
+    "citation_count": 147,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4306786778",
+    "title": "Deep multiagent reinforcement learning: challenges and directions",
+    "authors": [
+      "Annie Wong",
+      "Thomas B\u00e4ck",
+      "Anna V. Kononova",
+      "Aske Plaat"
+    ],
+    "year": 2022,
+    "journal": "Artificial Intelligence Review",
+    "doi_or_url": "https://doi.org/10.1007/s10462-022-10299-x",
+    "citation_count": 147,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2028263740",
+    "title": "Neural Dissociation of Delay and Uncertainty in Intertemporal Choice",
+    "authors": [
+      "Christian C. Luhmann",
+      "Marvin M. Chun",
+      "Do-Joon Yi",
+      "Daeyeol Lee",
+      "Xiao\u2010Jing Wang"
+    ],
+    "year": 2008,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.5058-08.2008",
+    "citation_count": 147,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2887622453",
+    "title": "The Subjective Value of Cognitive Effort is Encoded by a Domain-General Valuation Network",
+    "authors": [
+      "Andrew Westbrook",
+      "Bidhan Lamichhane",
+      "Todd S. Braver"
+    ],
+    "year": 2019,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3071-18.2019",
+    "citation_count": 146,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1967752497",
+    "title": "A MECHANISM FOR REDUCING DELAY DISCOUNTING BY ALTERING TEMPORAL ATTENTION",
+    "authors": [
+      "Peter T. Radu",
+      "Richard Yi",
+      "Warren K. Bickel",
+      "James J. Gross",
+      "Samuel M. McClure"
+    ],
+    "year": 2011,
+    "journal": "Journal of the Experimental Analysis of Behavior",
+    "doi_or_url": "https://doi.org/10.1901/jeab.2011.96-363",
+    "citation_count": 145,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2055514102",
+    "title": "Behavioral and Neural Changes after Gains and Losses of Conditioned Reinforcers",
+    "authors": [
+      "Hyojung Seo",
+      "Daeyeol Lee"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4726-08.2009",
+    "citation_count": 145,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2089747057",
+    "title": "The Value of Emotion: How Does Episodic Prospection Modulate Delay Discounting?",
+    "authors": [
+      "Lei Liu",
+      "Tingyong Feng",
+      "Jing Chen",
+      "Hong Li"
+    ],
+    "year": 2013,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0081717",
+    "citation_count": 145,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2032105672",
+    "title": "Methodological considerations in the study of delay discounting in intertemporal choice: A comparison of tasks and modes",
+    "authors": [
+      "Carter Smith",
+      "Donald A. Hantula"
+    ],
+    "year": 2008,
+    "journal": "Behavior Research Methods",
+    "doi_or_url": "https://doi.org/10.3758/brm.40.4.940",
+    "citation_count": 145,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2969341862",
+    "title": "The role of the discount rate for emission pathways and negative emissions",
+    "authors": [
+      "Johannes Emmerling",
+      "Laurent Drouet",
+      "Kaj-Ivar van der Wijst",
+      "Detlef P. van Vuuren",
+      "Valentina Bosetti",
+      "Massimo Tavoni"
+    ],
+    "year": 2019,
+    "journal": "Environmental Research Letters",
+    "doi_or_url": "https://doi.org/10.1088/1748-9326/ab3cc9",
+    "citation_count": 145,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2168039639",
+    "title": "Delay Discounting and Frontostriatal Fiber Tracts: A Combined DTI and MTR Study on Impulsive Choices in Healthy Young Adults",
+    "authors": [
+      "Jiska S. Peper",
+      "Ren\u00e9 C.W. Mandl",
+      "Barbara R. Braams",
+      "Erik de Water",
+      "Annemieke C. Heijboer",
+      "P. C\u00e9dric M. P. Koolschijn",
+      "Eveline A. Crone"
+    ],
+    "year": 2012,
+    "journal": "Cerebral Cortex",
+    "doi_or_url": "https://doi.org/10.1093/cercor/bhs163",
+    "citation_count": 144,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2043219190",
+    "title": "Dopamine, Corticostriatal Connectivity, and Intertemporal Choice",
+    "authors": [
+      "Andrew S. Kayser",
+      "David C. Allen",
+      "Ana Navarro\u2010Cebri\u00e1n",
+      "Jennifer Mitchell",
+      "Howard L. Fields"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1180-12.2012",
+    "citation_count": 144,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4295524107",
+    "title": "Monetary Policy under Uncertainty in Micro-Founded Macroeconometric Models",
+    "authors": [
+      "Andrew Levin",
+      "Alexei Onatski",
+      "John C. Williams",
+      "Noah Williams"
+    ],
+    "year": 2005,
+    "journal": "NBER Macroeconomics Annual",
+    "doi_or_url": "https://doi.org/10.1086/ma.20.3585423",
+    "citation_count": 144,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1993550156",
+    "title": "A Role for Dopamine in Temporal Decision Making and Reward Maximization in Parkinsonism",
+    "authors": [
+      "Ahmed A. Moustafa",
+      "Michael X Cohen",
+      "Scott J. Sherman",
+      "Michael J. Frank"
+    ],
+    "year": 2008,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3116-08.2008",
+    "citation_count": 144,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2626804262",
+    "title": "Social learning through prediction error in the brain",
+    "authors": [
+      "Jessica A. Joiner",
+      "Matthew Piva",
+      "Courtney Turrin",
+      "Steve W. C. Chang"
+    ],
+    "year": 2017,
+    "journal": "npj Science of Learning",
+    "doi_or_url": "https://doi.org/10.1038/s41539-017-0009-2",
+    "citation_count": 142,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2095216310",
+    "title": "A mechanistic account of value computation in the human brain",
+    "authors": [
+      "Marios G. Philiastides",
+      "Guido Biele",
+      "Hauke R. Heekeren"
+    ],
+    "year": 2010,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "doi_or_url": "https://doi.org/10.1073/pnas.1001732107",
+    "citation_count": 142,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2085852579",
+    "title": "Patience is a virtue: Cooperative people have lower discount rates",
+    "authors": [
+      "Oliver Scott Curry",
+      "Michael E. Price",
+      "Jade G. Price"
+    ],
+    "year": 2007,
+    "journal": "Personality and Individual Differences",
+    "doi_or_url": "https://doi.org/10.1016/j.paid.2007.09.023",
+    "citation_count": 140,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2171501237",
+    "title": "The Decision to Engage Cognitive Control Is Driven by Expected Reward-Value: Neural and Behavioral Evidence",
+    "authors": [
+      "Matthew L. Dixon",
+      "Kalina Christoff"
+    ],
+    "year": 2012,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0051637",
+    "citation_count": 140,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3123667360",
+    "title": "The BCD of response time analysis in experimental economics",
+    "authors": [
+      "Leonidas Spiliopoulos",
+      "Andreas Ortmann"
+    ],
+    "year": 2017,
+    "journal": "Experimental Economics",
+    "doi_or_url": "https://doi.org/10.1007/s10683-017-9528-1",
+    "citation_count": 139,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2762138094",
+    "title": "The dopaminergic reward system underpins gender differences in social preferences",
+    "authors": [
+      "Alexander Soutschek",
+      "Christopher J. Burke",
+      "Anjali Raja Beharelle",
+      "Robert A. Schreiber",
+      "Susanna Weber",
+      "Iliana I. Karipidis",
+      "Jolien Ten Velden",
+      "Bernd Weber",
+      "H\u00e9l\u00e8ne Haker",
+      "Tobias Kalenscher",
+      "Philippe N. Tobler"
+    ],
+    "year": 2017,
+    "journal": "Nature Human Behaviour",
+    "doi_or_url": "https://doi.org/10.1038/s41562-017-0226-y",
+    "citation_count": 138,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1977835340",
+    "title": "Single-Neuron Mechanisms Underlying Cost-Benefit Analysis in Frontal Cortex",
+    "authors": [
+      "Takayuki Hosokawa",
+      "Steven W. Kennerley",
+      "Jennifer Sloan",
+      "Joni D. Wallis"
+    ],
+    "year": 2013,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2221-13.2013",
+    "citation_count": 138,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2139359806",
+    "title": "How to measure time preferences: An experimental comparison of three methods",
+    "authors": [
+      "David J. Hardisty",
+      "Katherine F. Thompson",
+      "David H. Krantz",
+      "Elke U. Weber"
+    ],
+    "year": 2013,
+    "journal": "Judgment and Decision Making",
+    "doi_or_url": "https://doi.org/10.1017/s1930297500005957",
+    "citation_count": 137,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2286434935",
+    "title": "Frontostriatal White Matter Integrity Predicts Development of Delay of Gratification: A Longitudinal Study",
+    "authors": [
+      "Michelle Achterberg",
+      "Jiska S. Peper",
+      "Anna C. K. van Duijvenvoorde",
+      "Ren\u00e9 C.W. Mandl",
+      "Eveline A. Crone"
+    ],
+    "year": 2016,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3459-15.2016",
+    "citation_count": 135,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1999273199",
+    "title": "Multiple Modes of Impulsivity in Parkinson's Disease",
+    "authors": [
+      "Cristina Nombela",
+      "Timothy Rittman",
+      "Trevor W. Robbins",
+      "James B. Rowe"
+    ],
+    "year": 2014,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0085747",
+    "citation_count": 134,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2984095784",
+    "title": "A neural network for information seeking",
+    "authors": [
+      "Jesse White",
+      "Ethan S. Bromberg-Martin",
+      "Sarah R. Heilbronner",
+      "Kaining Zhang",
+      "Julia Pai",
+      "Suzanne N. Haber",
+      "Ilya E. Monosov"
+    ],
+    "year": 2019,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/s41467-019-13135-z",
+    "citation_count": 134,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1984942444",
+    "title": "Temporally Dissociable Mechanisms of Self-Control: Early Attentional Filtering Versus Late Value Modulation",
+    "authors": [
+      "Alison Harris",
+      "Todd A. Hare",
+      "Antonio Rangel"
+    ],
+    "year": 2013,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.5816-12.2013",
+    "citation_count": 134,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2161555898",
+    "title": "The role of neural impulse control mechanisms for dietary success in obesity",
+    "authors": [
+      "Martin Weygandt",
+      "Knut Mai",
+      "Esther Dommes",
+      "Verena Leupelt",
+      "Kerstin Ritter",
+      "Thorsten Kahnt",
+      "Yvonne Rothemund",
+      "Joachim Spranger",
+      "John\u00ad\u2013Dylan Haynes"
+    ],
+    "year": 2013,
+    "journal": "NeuroImage",
+    "doi_or_url": "https://doi.org/10.1016/j.neuroimage.2013.07.028",
+    "citation_count": 133,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2736288670",
+    "title": "No Effect of Commercial Cognitive Training on Brain Activity, Choice Behavior, or Cognitive Performance",
+    "authors": [
+      "Joseph W. Kable",
+      "Mary Kathleen Caulfield",
+      "Mary Falcone",
+      "Mairead H. McConnell",
+      "Leah Bernardo",
+      "Trishala Parthasarathi",
+      "Nicole Cooper",
+      "Rebecca L. Ashare",
+      "Janet Audrain\u2010McGovern",
+      "Robert Hornik",
+      "Paul J. Diefenbach",
+      "Frank J. Lee"
+    ],
+    "year": 2017,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2832-16.2017",
+    "citation_count": 132,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2581205426",
+    "title": "Cardiac Signals Are Independently Associated with Temporal Discounting and Time Perception",
+    "authors": [
+      "Bowen J. Fung",
+      "Damien L. Crone",
+      "Stefan Bode",
+      "Carsten Murawski"
+    ],
+    "year": 2017,
+    "journal": "Frontiers in Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnbeh.2017.00001",
+    "citation_count": 131,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2083828303",
+    "title": "Lateral Intraparietal Cortex and Reinforcement Learning during a Mixed-Strategy Game",
+    "authors": [
+      "Hyojung Seo",
+      "Dominic J. Barraclough",
+      "Daeyeol Lee"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1479-09.2009",
+    "citation_count": 131,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  }
+]

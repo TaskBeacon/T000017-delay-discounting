@@ -1,0 +1,241 @@
+# ============================================================================
+# Scripted simulation config
+# - Used by: python main.py sim --config config/config_scripted_sim.yaml
+# - Scope: scripted simulation only (contains sim section, no qa section)
+# ============================================================================
+
+# === Subject Form ===========================================================
+subinfo_fields:
+  - name: subject_id
+    type: int
+    constraints:
+      min: 101
+      max: 999
+      digits: 3
+
+subinfo_mapping:
+  subject_id: 被试号
+  Participant Information: 被试信息
+  registration_failed: 注册失败。
+  registration_successful: 注册成功！
+  invalid_input: 字段 {field} 输入无效
+
+
+# === Display / Window =======================================================
+window:
+  size: [1280, 720]
+  units: pix
+  screen: 0
+  bg_color: black
+  fullscreen: false
+  monitor_width_cm: 35.5
+  monitor_distance_cm: 60
+
+
+# === Task ===================================================================
+task:
+  task_name: delay_discounting
+  save_path: ./outputs/sim
+  language: Chinese
+  voice_name: zh-CN-YunyangNeural
+  voice_enabled: false
+  total_blocks: 1
+  total_trials: 9
+  trial_per_block: 9
+  conditions: [small, medium, large]
+  key_list: ["f", "j"]
+  seed_mode: same_across_sub
+  overall_seed: 2026
+
+
+# === Timing =================================================================
+timing:
+  cue_duration: 0.4
+  anticipation_duration: 0.1
+  decision_duration: 1.5
+  choice_confirm_duration: 0.2
+  feedback_duration: 0.3
+  iti_duration: 0.2
+
+
+# === Stimuli ================================================================
+stimuli:
+  fixation:
+    type: text
+    font: SimHei
+    text: "+"
+    color: white
+    height: 42
+
+  instruction_text:
+    type: text
+    font: SimHei
+    text: |
+      延迟折扣任务（脚本模拟）
+
+      F 选左侧，J 选右侧。
+      按空格键开始。
+    color: white
+    height: 26
+    wrapWidth: 980
+
+  cue_text:
+    type: text
+    font: SimHei
+    text: "金额等级：{magnitude_label}"
+    color: cyan
+    height: 34
+
+  option_left:
+    type: text
+    font: SimHei
+    text: "左侧选项"
+    color: white
+    height: 40
+    pos: [-320, 40]
+    wrapWidth: 360
+
+  option_right:
+    type: text
+    font: SimHei
+    text: "右侧选项"
+    color: white
+    height: 40
+    pos: [320, 40]
+    wrapWidth: 360
+
+  highlight_left:
+    type: rect
+    lineColor: white
+    lineWidth: 3
+    fillColor: null
+    pos: [-320, 40]
+    width: 360
+    height: 130
+
+  highlight_right:
+    type: rect
+    lineColor: white
+    lineWidth: 3
+    fillColor: null
+    pos: [320, 40]
+    width: 360
+    height: 130
+
+  choice_prompt:
+    type: text
+    font: SimHei
+    text: "请在规定时间内做出选择"
+    color: yellow
+    height: 24
+    pos: [0, -220]
+    wrapWidth: 900
+
+  feedback_choice:
+    type: text
+    font: SimHei
+    text: "已记录本次选择"
+    color: green
+    height: 34
+
+  feedback_timeout:
+    type: text
+    font: SimHei
+    text: "超时未作答"
+    color: red
+    height: 34
+
+  block_break:
+    type: text
+    font: SimHei
+    text: |
+      脚本模拟区块结束
+      作答率：{response_rate:.1%}
+      延迟收益选择比例：{ll_rate:.1%}
+      平均反应时：{mean_rt}
+
+      按空格键继续。
+    color: white
+    height: 24
+    wrapWidth: 980
+
+  good_bye:
+    type: text
+    font: SimHei
+    text: |
+      脚本模拟完成。
+      总试次：{total_trials}
+      有效作答：{valid_trials}
+      延迟收益选择比例：{ll_rate:.1%}
+
+      按空格键退出。
+    color: white
+    height: 28
+    wrapWidth: 980
+
+
+# === Triggers ===============================================================
+triggers:
+  map:
+    exp_onset: 1
+    exp_end: 2
+    block_onset: 10
+    block_end: 11
+    cue_onset: 20
+    anticipation_onset: 25
+    choice_onset: 30
+    choice_confirm_onset: 33
+    choice_response_left: 31
+    choice_response_right: 32
+    choice_no_response: 39
+    feedback_choice_onset: 40
+    feedback_timeout_onset: 41
+    iti_onset: 50
+
+  driver:
+    type: serial_url
+    url: loop://
+    baudrate: 115200
+
+  timing:
+    post_delay_ms: 1
+
+  policy:
+    strict: false
+
+
+# === Trial Controller =======================================================
+controller:
+  randomize_order: true
+  counterbalance_sides: true
+  ll_left_prob: 0.5
+  enable_logging: true
+  item_pool:
+    - {item_id: 1, magnitude: small, ss_amount: 25, ll_amount: 30, delay_days: 14, k_ref: 0.014286}
+    - {item_id: 5, magnitude: small, ss_amount: 15, ll_amount: 35, delay_days: 13, k_ref: 0.102564}
+    - {item_id: 9, magnitude: small, ss_amount: 55, ll_amount: 75, delay_days: 61, k_ref: 0.005962}
+    - {item_id: 10, magnitude: medium, ss_amount: 30, ll_amount: 35, delay_days: 186, k_ref: 0.000896}
+    - {item_id: 14, magnitude: medium, ss_amount: 40, ll_amount: 55, delay_days: 62, k_ref: 0.006048}
+    - {item_id: 18, magnitude: medium, ss_amount: 50, ll_amount: 60, delay_days: 89, k_ref: 0.002247}
+    - {item_id: 19, magnitude: large, ss_amount: 35, ll_amount: 85, delay_days: 7, k_ref: 0.204082}
+    - {item_id: 22, magnitude: large, ss_amount: 50, ll_amount: 75, delay_days: 14, k_ref: 0.035714}
+    - {item_id: 27, magnitude: large, ss_amount: 60, ll_amount: 80, delay_days: 30, k_ref: 0.011111}
+
+
+# === Simulation =============================================================
+sim:
+  output_dir: outputs/sim
+  seed: 17
+  participant_id: sim001
+  session_id: sub-sim001_task-delay_discounting_scripted_seed17
+  log_path: outputs/sim/sub-sim001_task-delay_discounting_scripted_seed17_sim_events.jsonl
+
+  policy: warn
+  default_rt_s: 0.30
+  clamp_rt: false
+
+  responder:
+    type: scripted
+    kwargs:
+      key: f
+      rt_s: 0.35
