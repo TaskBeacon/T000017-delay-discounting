@@ -2,9 +2,12 @@
 
 All notable development changes for `T000017-delay-discounting` are documented here.
 
-## [0.2.0] - 2026-02-17
+## [Unreleased]
 
 ### Changed
+- Refactored `src/run_trial.py` to use `psyflow`'s native `next_trial_id()`.
+
+## [0.2.0] - 2026-02-17
 - Replaced MID-style scaffold with a delay-discounting specific implementation based on MCQ-27 style offer pairs.
 - Refactored `src/utils.py` into `DelayDiscountingController` with deterministic trial planning, order randomization, and left/right side counterbalancing.
 - Refactored `src/run_trial.py` to execute explicit SS vs LL decision trials, including trial-context fields for responder/sim plumbing.

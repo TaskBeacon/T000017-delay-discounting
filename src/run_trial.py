@@ -2,7 +2,7 @@
 
 from functools import partial
 
-from psyflow import StimUnit, set_trial_context
+from psyflow import StimUnit, set_trial_context, next_trial_id
 
 
 def _delay_label(days: int) -> str:
@@ -28,7 +28,7 @@ def run_trial(
     left_key, right_key = str(keys[0]), str(keys[1])
 
     spec = controller.next_trial(block_idx=int(block_idx or 0), expected_condition=str(condition))
-    trial_id = int(spec["global_trial_id"])
+    trial_id = next_trial_id()
     magnitude = str(spec["magnitude"])
 
     ll_side = str(spec["ll_side"])
