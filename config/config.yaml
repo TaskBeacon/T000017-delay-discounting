@@ -226,8 +226,8 @@ triggers:
     strict: false
 
 
-# === Trial Controller =======================================================
-controller:
+# === Condition Generation ================================================
+condition_generation:
   randomize_order: true
   counterbalance_sides: true
   ll_left_prob: 0.5

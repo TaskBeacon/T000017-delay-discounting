@@ -71,8 +71,8 @@ class TaskSamplerResponder:
         if self._rng is None:
             return Action(key=None, rt_s=None, meta={"source": "delay_sampler", "reason": "rng_missing"})
 
-        phase = str(obs.phase or "")
-        if phase not in ("choice", "target"):
+        phase = str(obs.phase or "").strip().lower()
+        if phase != "intertemporal_choice":
             if self.continue_key in valid_keys:
                 rt = max(self.rt_min_s, self._sample_normal(self.rt_mean_s, self.rt_sd_s))
                 return Action(

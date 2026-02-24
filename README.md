@@ -18,7 +18,7 @@
 
 ## 1. Task Overview
 
-This task implements an MCQ-27 style delay discounting paradigm where participants repeatedly choose between a smaller-sooner (SS) and larger-later (LL) monetary option. Trial offers are generated from a fixed 27-item item pool, with configurable randomization and side counterbalancing. The implementation supports `human`, `qa`, and `sim` modes, records choice and RT outcomes at trial level, and emits structured triggers for each phase.
+This task implements an MCQ-27 style delay discounting paradigm where participants repeatedly choose between a smaller-sooner (SS) and larger-later (LL) monetary option. Trial offers are generated from a fixed 27-item item pool using deterministic utility-based planning, with configurable randomization and side counterbalancing. The implementation supports `human`, `qa`, and `sim` modes, records choice and RT outcomes at trial level, and emits structured triggers for each phase.
 
 ## 2. Task Flow
 
@@ -29,10 +29,10 @@ This task implements an MCQ-27 style delay discounting paradigm where participan
 | 1. Parse mode and config | `main.py` resolves `human/qa/sim` and loads the requested YAML profile. |
 | 2. Build participant context | Human mode uses full subject form; QA and sim use synthetic IDs from runtime context. |
 | 3. Initialize runtime | Construct `TaskSettings`, initialize trigger runtime, window, keyboard, and preload all configured stimuli. |
-| 4. Initialize controller | `DelayDiscountingController.from_dict(...)` loads controller options and MCQ item pool behavior. |
+| 4. Initialize condition generation config | `main.py` loads `condition_generation` settings (item pool, randomization, side counterbalancing) for deterministic planning helpers in `src/utils.py`. |
 | 5. Start experiment | Emit `exp_onset`; show instruction screen and wait for continue key. |
-| 6. Prepare block plan | For each block (`total_blocks=1`), controller generates trial plan and side assignments via `prepare_block(...)`. |
-| 7. Run trials | `BlockUnit` emits `block_onset`, executes `run_trial(...)` for each planned condition, then emits `block_end`. |
+| 6. Prepare block conditions | For each block (`total_blocks=1`), `BlockUnit.generate_conditions(func=build_block_conditions, ...)` generates readable magnitude-label conditions from a deterministic MCQ plan. |
+| 7. Run trials | `BlockUnit` emits `block_onset`, executes `run_trial(...)` for each condition label, and `run_trial.py` reconstructs the exact item spec deterministically from block seed + trial position, then emits `block_end`. |
 | 8. Compute block summary | After block, compute response rate, LL choice rate, and mean RT from collected trial records. |
 | 9. Show block break | Present block summary screen (`block_break`) with formatted metrics. |
 | 10. Finalize | Show final summary screen (`good_bye`), emit `exp_end`, save CSV, close trigger runtime, and quit PsychoPy. |
@@ -41,7 +41,7 @@ This task implements an MCQ-27 style delay discounting paradigm where participan
 
 | Step | Description |
 |------|-------------|
-| 1. Fetch planned offer | `next_trial(...)` provides one preplanned item with magnitude, SS/LL amounts, delay, side assignment, and item ID. |
+| 1. Resolve planned offer | `run_trial.py` derives block-trial index, reconstructs the deterministic block plan, and fetches the matching MCQ item spec (magnitude, amounts, delay, side assignment, item ID). |
 | 2. Cue phase | Show neutral fixation for `cue_duration=0.6 s` and emit `cue_onset`. Condition labels are intentionally not shown before choice. |
 | 3. Anticipation phase | Show fixation for `anticipation_duration=0.2 s` and emit `anticipation_onset`. |
 | 4. Choice phase | Draw left/right option text and choice prompt; collect `f/j` response within `decision_duration=6.0 s`; emit `choice_onset`, response trigger (`31/32`), or timeout trigger (`39`). |
@@ -54,11 +54,18 @@ This task implements an MCQ-27 style delay discounting paradigm where participan
 
 | Component | Description |
 |-----------|-------------|
-| Item pool | Uses embedded 27-item MCQ table (`MCQ27_ITEMS`) with fields: item ID, magnitude tier, SS amount, LL amount, delay days, and reference discount factor (`k_ref`). |
-| Block plan generation | `prepare_block(...)` builds trial list of length `trial_per_block`, optionally randomizes order, and stores queue by block index. |
+| Adaptive controller | Not used in this task. |
+| Rationale | Delay discounting here does not require adaptive RT-window control or staircase difficulty adjustment. |
+
+### Condition Generation Logic
+
+| Component | Description |
+|-----------|-------------|
+| Item pool | Uses embedded/default 27-item MCQ table (`MCQ27_ITEMS`) or config-provided subset with fields: item ID, magnitude tier, SS amount, LL amount, delay days, and reference discount factor (`k_ref`). |
+| Block plan generation | `build_block_plan(...)` deterministically builds a per-block trial list of length `trial_per_block` from item pool + seed and optional order randomization. |
 | Side assignment | With `counterbalance_sides=true`, LL side is balanced across trials (half left, half right when possible) and shuffled by seed. |
-| Option rendering fields | For each trial, controller computes `left_amount/right_amount`, `left_delay_days/right_delay_days`, `ll_side`, and `ss_side`. |
-| Trial serving | `next_trial(...)` pops next planned trial, increments `global_trial_id`, and warns on expected-condition mismatch. |
+| Option rendering fields | For each trial, utility planning computes `left_amount/right_amount`, `left_delay_days/right_delay_days`, `ll_side`, `ss_side`, and `condition_id`. |
+| Trial serving | `run_trial.py` reconstructs the planned trial spec by block seed and block-trial index, and validates magnitude-label agreement with the `BlockUnit` condition. |
 
 ### Other Logic
 
@@ -67,7 +74,7 @@ This task implements an MCQ-27 style delay discounting paradigm where participan
 | Neutral pre-choice design | Although `cue_text` is defined in config, current trial logic intentionally presents fixation in cue phase to avoid exposing condition labels before choice. |
 | Derived behavioral outputs | Trial data includes response presence, response key, RT, chosen side, chosen option, LL choice flag, and chosen value/delay fields. |
 | Block-level metrics | Main loop computes response rate, LL rate among valid responses, and mean RT for block feedback text. |
-| Trial context plumbing | Each stage (`cue`, `anticipation`, `target`, `choice_confirm`, `feedback`, `iti`) calls `set_trial_context(...)` for responder compatibility and simulation auditability. |
+| Trial context plumbing | Each stage (`pre_choice_fixation`, `offer_onset_jitter`, `intertemporal_choice`, `choice_confirmation`, `outcome_feedback`, `inter_trial_interval`) calls `set_trial_context(...)` for responder compatibility and simulation auditability. |
 
 ### Runtime Context Phases
 | Phase Label | Meaning |
@@ -151,17 +158,17 @@ All settings are defined in `config/config.yaml`.
 | feedback_timeout_onset | 41 |
 | iti_onset | 50 |
 
-### f. Adaptive Controller
+### f. Condition Generation
 
 | Parameter | Value |
 |-----------|-------|
-| randomize_order | `true` |
-| counterbalance_sides | `true` |
-| ll_left_prob | `0.5` (used when side counterbalancing is disabled) |
-| enable_logging | `true` |
-| item pool size | `27` MCQ items |
+| randomize_order | `true` (`condition_generation.randomize_order`) |
+| counterbalance_sides | `true` (`condition_generation.counterbalance_sides`) |
+| ll_left_prob | `0.5` (`condition_generation.ll_left_prob`, used when side counterbalancing is disabled) |
+| enable_logging | `true` (`condition_generation.enable_logging`) |
+| item pool size | `27` MCQ items by default (or config-provided subset under `condition_generation.item_pool`) |
 | seed behavior | Block seed passed via `settings.block_seed[block_i]`; produces deterministic block plan for fixed seed |
-| adaptation style | Non-staircase offer sampling with preplanned item/side schedule |
+| adaptation style | Non-adaptive deterministic item/side planning via `src/utils.py` helpers |
 
 ## 4. Methods (for academic publication)
 
@@ -169,4 +176,4 @@ Participants performed a delay discounting task based on the 27-item Monetary Ch
 
 Each trial started with a neutral fixation cue (0.6 s) and a brief anticipation interval (0.2 s), followed by the decision screen (maximum 6.0 s). The decision screen displayed two option texts containing amount and delay information. If a choice was made, a short confirmation stage (0.3 s) highlighted the selected side without revealing internal condition labels; then feedback was shown for 0.5 s. Missed trials produced timeout feedback. A 0.5 s inter-trial interval separated trials.
 
-Offer generation was controlled by a deterministic planner initialized from the configured seed, with optional order randomization and side counterbalancing to distribute LL placement across left and right positions. Behavioral outputs included response rate, reaction time, choice side, and LL choice proportion at both trial and block level. Event markers were emitted for all principal phases to support synchronized behavioral and neurophysiological analyses.
+Offer generation is implemented by deterministic utility helpers initialized from the configured block seed, with optional order randomization and side counterbalancing to distribute LL placement across left and right positions. Behavioral outputs included response rate, reaction time, choice side, and LL choice proportion at both trial and block level. Event markers were emitted for all principal phases to support synchronized behavioral and neurophysiological analyses.

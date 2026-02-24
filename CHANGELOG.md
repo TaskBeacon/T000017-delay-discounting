@@ -4,8 +4,14 @@ All notable development changes for `T000017-delay-discounting` are documented h
 
 ## [Unreleased]
 
+### Added
+- Added `references/task_logic_audit.md` documenting literature-aligned state machine and the new non-controller condition-generation architecture.
+
 ### Changed
-- Refactored `src/run_trial.py` to use `psyflow`'s native `next_trial_id()`.
+- Refactored `src/run_trial.py` to use `psyflow`'s native `next_trial_id()` and deterministic utility-based trial-plan reconstruction (no task controller).
+- Refactored `main.py` to a simpler PsyFlow-first mode-aware flow and replaced controller setup with utility-based block condition generation.
+- Replaced `DelayDiscountingController` with stateless utilities in `src/utils.py` for MCQ item-pool planning and custom `BlockUnit` condition generation.
+- Updated responder sampler to use canonical choice phase `intertemporal_choice` only (no legacy phase fallback).
 
 ## [0.2.0] - 2026-02-17
 - Replaced MID-style scaffold with a delay-discounting specific implementation based on MCQ-27 style offer pairs.
