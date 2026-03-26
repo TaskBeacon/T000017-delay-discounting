@@ -1,0 +1,177 @@
+task_plot_spec:
+  spec_version: '0.2'
+  meta:
+    task_name: Delay Discounting Task
+    mode: existing
+    task_id: ''
+  figure:
+    output:
+      filename: task_flow.png
+      dpi: 300
+      width_in: 16.0
+      background: white
+    layout:
+      max_conditions: 4
+      screens_per_timeline: 6
+      screen_overlap_ratio: 0.1
+      screen_slope: 0.08
+      screen_slope_deg: 25.0
+      timeline_gap: 0.18
+      screen_aspect_ratio: 1.4545454545454546
+      left_margin: 0.2
+      right_margin: 0.03
+      top_margin: 0.03
+      bottom_margin: 0.05
+      condition_label_gap: 0.014
+      phase_label_pad: 0.01
+      duration_label_gap: 0.006
+      timeline_arrow_gap: 0.01
+      timeline_arrow_screen_clearance: 0.007
+      timeline_arrow_text_clearance: 0.01
+      timeline_arrow_extra_per_screen: 0.015
+      timeline_arrow_min_y: 0.02
+      timeline_arrow_max_y: 0.96
+  timelines:
+  - condition: small
+    display_condition_label: Small
+    phases:
+    - phase_name: pre choice fixation
+      display_phase_label: Fixation
+      duration_ms: null
+      response_window_ms: null
+      display_timing_label: ''
+      stim_ids:
+      - fixation
+      stimulus_example:
+        summary: +
+        modality: visual
+        draw_hint: text
+        render_items:
+        - kind: text
+          text: +
+          color: white
+          pos: null
+          height: 42.0
+      notes: ''
+    - phase_name: offer onset jitter
+      display_phase_label: Offer Onset Jitter
+      duration_ms:
+        fixed: 200
+      response_window_ms: null
+      display_timing_label: 200 ms
+      stim_ids:
+      - fixation
+      stimulus_example:
+        summary: +
+        modality: visual
+        draw_hint: text
+        render_items:
+        - kind: text
+          text: +
+          color: white
+          pos: null
+          height: 42.0
+      notes: ''
+    - phase_name: intertemporal choice
+      display_phase_label: Intertemporal Choice
+      duration_ms: null
+      response_window_ms: null
+      display_timing_label: ''
+      stim_ids:
+      - option_left
+      - option_right
+      - choice_prompt
+      stimulus_example:
+        summary: 左侧选项 + 右侧选项 + 请在规定时间内做出选择
+        modality: visual
+        draw_hint: text
+        render_items:
+        - kind: text
+          text: 左侧选项
+          color: white
+          pos:
+          - -320.0
+          - 40.0
+          height: 40.0
+        - kind: text
+          text: 右侧选项
+          color: white
+          pos:
+          - 320.0
+          - 40.0
+          height: 40.0
+        - kind: text
+          text: 请在规定时间内做出选择
+          color: yellow
+          pos:
+          - 0.0
+          - -220.0
+          height: 24.0
+      notes: ''
+    - phase_name: choice confirmation
+      display_phase_label: Choice Confirmation
+      duration_ms:
+        fixed: 250
+      response_window_ms: null
+      display_timing_label: 250 ms
+      stim_ids:
+      - option_left
+      - option_right
+      stimulus_example:
+        summary: 左侧选项 + 右侧选项
+        modality: visual
+        draw_hint: text
+        render_items:
+        - kind: text
+          text: 左侧选项
+          color: white
+          pos:
+          - -320.0
+          - 40.0
+          height: 40.0
+        - kind: text
+          text: 右侧选项
+          color: white
+          pos:
+          - 320.0
+          - 40.0
+          height: 40.0
+      notes: ''
+    - phase_name: outcome feedback
+      display_phase_label: Feedback
+      duration_ms: null
+      response_window_ms: null
+      display_timing_label: ''
+      stim_ids:
+      - feedback_choice' if choice_made else 'feedback_timeout
+      stimulus_example:
+        summary: '[dynamic:feedback_choice'' if choice_made else…'
+        modality: other
+        draw_hint: annotation
+        render_items:
+        - kind: annotation
+          text: 'Dynamic: feedback_choice'' if choice_made else ''feedback_timeout'
+      notes: ''
+    - phase_name: inter trial interval
+      display_phase_label: ITI
+      duration_ms: null
+      response_window_ms: null
+      display_timing_label: ''
+      stim_ids:
+      - fixation
+      stimulus_example:
+        summary: +
+        modality: visual
+        draw_hint: text
+        render_items:
+        - kind: text
+          text: +
+          color: white
+          pos: null
+          height: 42.0
+      notes: ''
+    condition_variants:
+    - medium
+    - large
+    display_condition_note: 'Also: Medium, Large'
+  legend: []

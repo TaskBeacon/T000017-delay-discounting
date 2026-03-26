@@ -22,6 +22,8 @@ This task implements an MCQ-27 style delay discounting paradigm where participan
 
 ## 2. Task Flow
 
+![Task Flow](task_flow.png)
+
 ### Block-Level Flow
 
 | Step | Description |
