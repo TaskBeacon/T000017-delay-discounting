@@ -4,11 +4,7 @@ from functools import partial
 
 from psyflow import StimUnit, next_trial_id, set_trial_context
 
-from .utils import get_block_trial_spec, normalize_magnitude
-
-
-def _delay_label(days: int) -> str:
-    return "今天到账" if int(days) <= 0 else f"{int(days)}天后到账"
+from .utils import format_option_text, get_block_trial_spec, normalize_magnitude
 
 
 def run_trial(
@@ -52,8 +48,8 @@ def run_trial(
     ll_key = left_key if ll_side == "left" else right_key
     ss_key = right_key if ll_side == "left" else left_key
 
-    left_text = f"{float(spec['left_amount']):.0f}元，{_delay_label(int(spec['left_delay_days']))}"
-    right_text = f"{float(spec['right_amount']):.0f}元，{_delay_label(int(spec['right_delay_days']))}"
+    left_text = format_option_text(float(spec["left_amount"]), int(spec["left_delay_days"]), settings)
+    right_text = format_option_text(float(spec["right_amount"]), int(spec["right_delay_days"]), settings)
 
     trial_data = {
         "condition": magnitude,

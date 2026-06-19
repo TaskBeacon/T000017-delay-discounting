@@ -44,6 +44,11 @@ task:
   trial_per_block: 9
   conditions: [small, medium, large]
   key_list: ["f", "j"]
+  currency_unit: "\u5143"
+  option_amount_format: "{amount:.0f}"
+  delay_today_label: "\u4eca\u5929\u5230\u8d26"
+  delay_future_template: "{days}\u5929\u540e\u5230\u8d26"
+  option_text_template: "{amount}{currency_unit}\uff0c{delay_label}"
   seed_mode: same_across_sub
   overall_seed: 2026
 

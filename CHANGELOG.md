@@ -12,6 +12,7 @@ All notable development changes for `T000017-delay-discounting` are documented h
 - Refactored `main.py` to a simpler PsyFlow-first mode-aware flow and replaced controller setup with utility-based block condition generation.
 - Replaced `DelayDiscountingController` with stateless utilities in `src/utils.py` for MCQ item-pool planning and custom `BlockUnit` condition generation.
 - Updated responder sampler to use canonical choice phase `intertemporal_choice` only (no legacy phase fallback).
+- Moved dynamic option text formatting into config-driven templates and task-local utility helpers.
 
 ## [0.2.0] - 2026-02-17
 - Replaced MID-style scaffold with a delay-discounting specific implementation based on MCQ-27 style offer pairs.

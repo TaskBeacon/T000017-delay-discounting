@@ -49,6 +49,26 @@ def normalize_magnitude(value: str) -> str:
     return magnitude
 
 
+def format_delay_label(delay_days: int, settings) -> str:
+    days = int(delay_days)
+    if days <= 0:
+        return str(getattr(settings, "delay_today_label", "today"))
+    template = str(getattr(settings, "delay_future_template", "{days} days later"))
+    return template.format(days=days)
+
+
+def format_option_text(amount: float, delay_days: int, settings) -> str:
+    amount_format = str(getattr(settings, "option_amount_format", "{amount:.0f}"))
+    amount_text = amount_format.format(amount=float(amount))
+    template = str(getattr(settings, "option_text_template", "{amount}{currency_unit}, {delay_label}"))
+    return template.format(
+        amount=amount_text,
+        currency_unit=str(getattr(settings, "currency_unit", "")),
+        delay_label=format_delay_label(int(delay_days), settings),
+        days=int(delay_days),
+    )
+
+
 def normalize_item_pool(item_pool: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
     pool = list(item_pool) if item_pool is not None else [dict(x) for x in MCQ27_ITEMS]
     normalized: list[dict[str, Any]] = []
